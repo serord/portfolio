@@ -1,7 +1,5 @@
 import { defineConfig } from 'astro/config'
 import tailwind from '@astrojs/tailwind'
-import expressiveCode from 'astro-expressive-code'
-import { expressiveCodeOptions } from './src/site.config'
 import node from '@astrojs/node'
 import icon from 'astro-icon'
 
@@ -9,7 +7,6 @@ import icon from 'astro-icon'
 export default defineConfig({
 	site: 'https://serord.dev',
 	integrations: [
-		expressiveCode(expressiveCodeOptions),
 		tailwind({
 			applyBaseStyles: false
 		}),
