@@ -3,7 +3,7 @@ import type { SiteConfig } from '@/types'
 export const siteConfig: SiteConfig = {
 	author: 'Sergey Alekseev',
 	title: 'Portfolio',
-	description: 'Portfolio Website',
+	description: 'Sergey Alekseev',
 	lang: 'en-US',
 	ogLocale: 'en_US',
 	date: {
